@@ -1,0 +1,8 @@
+version: '2'
+services:
+  notebook:
+    build: .
+    ports:
+      - "80:8888"
+    env_file:
+      - secrets.env

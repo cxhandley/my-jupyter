@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+jupyter notebook \
+	--no-browser --no-mathjax --ip=* --port $PORT --allow-root
